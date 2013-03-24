@@ -18,4 +18,9 @@ A simple theme for Wordpress built on Bootstrap
 body { 
      padding-top: 60px; 
      padding-bottom: 40px; 
-} 
+}
+
+/* Moving the admin bar so it doesn't overlap main nav */
+
+.navbar-fixed-top { top: 0px; }
+ body.admin-bar .navbar-fixed-top { top: 28px !important; }
