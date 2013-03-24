@@ -12,3 +12,10 @@ License URI: http://creativecommons.org/licenses/by-sa/3.0/
 
 A simple theme for Wordpress built on Bootstrap
 */
+
+@import url('bootstrap/css/bootstrap.css'); 
+@import url('bootstrap/css/bootstrap-responsive.css'); 
+body { 
+     padding-top: 60px; 
+     padding-bottom: 40px; 
+} 
