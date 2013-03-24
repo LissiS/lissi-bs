@@ -20,7 +20,6 @@ body {
      padding-bottom: 40px; 
 }
 
-/* Moving the admin bar so it doesn't overlap main nav */
+/* Moving the main nav so it doesn't overlap admin nav */
 
-.navbar-fixed-top { top: 0px; }
- body.admin-bar .navbar-fixed-top { top: 28px !important; }
+body.admin-bar .navbar-fixed-top { top: 28px !important; }
