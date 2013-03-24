@@ -15,11 +15,3 @@ A simple theme for Wordpress built on Bootstrap
 
 @import url('bootstrap/css/bootstrap.css'); 
 @import url('bootstrap/css/bootstrap-responsive.css'); 
-body { 
-     padding-top: 60px; 
-     padding-bottom: 40px; 
-}
-
-/* Moving the main nav so it doesn't overlap admin nav */
-
-body.admin-bar .navbar-fixed-top { top: 28px !important; }
